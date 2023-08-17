@@ -11,7 +11,6 @@ function Get() {
                         <button className='trade'>With $599 with trade-in</button>
                   </div>
                   <div className='get-right'>
-                        <img src={iphone} height='462.5'/>
                   </div>
             </div>
       )

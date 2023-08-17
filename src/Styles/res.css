@@ -1,0 +1,92 @@
+
+/* media 1920 and 1440 */
+
+@media screen and (max-width:1920px) and (min-width: 1537px ) {
+
+    /* top navbar 1920 */
+
+    .searchInput{
+        width: 550px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    /* bottom navbar 1920 */
+
+    .bn-right .links{
+        font-size: large;
+    }
+
+    /* get component styles 1920 */
+
+    .get{
+        height: 550px;
+    }
+    .get .get-right{
+        background-position-x: 147px;
+    }
+    .rec-top p,.col-top p,.title p{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .rec-top h1, .col-top h1,.title h1, .title h4{
+        font-size: 35px;
+    }
+    .exploreBtn{
+        font-size: 17px;
+    }
+
+    /* collection component styles 1920 */
+
+    .col-left{
+        padding-left: 50px;
+    }
+
+    .col-left .card .sneaker{
+        width: 425px;
+        height: 475px;
+    }
+    .col-left .card .sneaker .cardBody{
+        height: 90%;
+    }
+    .col-left .card .sneaker .cardFooter{
+        height: 10%;
+    }
+    .cardFooter span{
+        font-size: 17px;
+    }
+    .col-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-right .right-card{
+        width: 650px;
+        height: 750px;
+    }
+    .col-right .right-card .right-top, .right-bottom{
+        height: 10%;
+    }
+    .col-right .right-card .right-center{
+        height: 80%;    
+        display: flex;
+        justify-content: center;
+    }
+    .trend-card{
+        width: 350px;
+    }
+    .CardBody p{
+        font-size: 20px;
+    }
+    .CardBody span{
+        font-size: 15px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    .footer h4{
+        font-size: 25px;
+    }
+
+}

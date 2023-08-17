@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../../images/logo.png';
 import '../../Styles/style.css'
+import '../../Styles/res.css';
 import like from '../../images/navIcons/like.png'
 import user from '../../images/navIcons/user.png'
 import shopping from '../../images/navIcons/shopping.png'

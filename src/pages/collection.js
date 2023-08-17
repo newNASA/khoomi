@@ -23,7 +23,7 @@ function Collection() {
                                                       <span>$99</span>
                                                 </div>
                                           </div>
-                                    </div>
+                                    </div> 
                                     <div className='card'>
                                           <div className='sneaker two'>
                                                 <div className='cardBody'>
