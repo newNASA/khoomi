@@ -11,68 +11,72 @@ function Collection() {
                         <h1>NEW COLLECTION</h1>
                   </div>
                   <div className='col-center'>
-                        <div className='col-left'>
-                              <div className='left-top'>
-                                    <div className='card'>
-                                          <div className='sneaker one'>
-                                                <div className='cardBody'>
-                                                      <img src={Sneaker1}></img>
-                                                </div>
-                                                <div className='cardFooter'>
-                                                      <p>NikeCourt Air</p>
-                                                      <span>$99</span>
-                                                </div>
+                        <div className='left'>
+                              <div className='card'>
+                                    <div className='top'>
+                                          <img src={Sneaker3}></img>
+                                    </div>
+                                    <div className='bottom'>
+                                          <div className='text'>
+                                                <h3>Nike Air force</h3>
                                           </div>
-                                    </div> 
-                                    <div className='card'>
-                                          <div className='sneaker two'>
-                                                <div className='cardBody'>
-                                                      <img src={Sneaker2}></img>
-                                                </div>
-                                                <div className='cardFooter'>
-                                                      <p>NIKE AIR FORCE</p>
-                                                      <span>$99</span>
-                                                </div>
+                                          <div className='price'>
+                                                <span>$99</span>
                                           </div>
                                     </div>
                               </div>
-                              <div className='left-bottom'>
-                                    <div className='card'>
-                                          <div className='sneaker three'>
-                                                <div className='cardBody'>
-                                                      <img src={Sneaker1}></img>
-                                                </div>
-                                                <div className='cardFooter'>
-                                                      <p>NikeCourt Air</p>
-                                                      <span>$99</span>
-                                                </div>
+                              <div className='card'>
+                                    <div className='top'>
+                                          <img src={Sneaker1}></img>
+                                    </div>
+                                    <div className='bottom'>
+                                          <div className='text'>
+                                                <h3>Nike Court air</h3>
+                                          </div>
+                                          <div className='price'>
+                                                <span>$99</span>
                                           </div>
                                     </div>
-                                    <div className='card'>
-                                          <div className='sneaker four'>
-                                                <div className='cardBody'>
-                                                      <img src={Sneaker2}></img>
-                                                </div>
-                                                <div className='cardFooter'>
-                                                      <p>NIKE AIR FORCE</p>
-                                                      <span>$99</span>
-                                                </div>
+                              </div>
+                              <div className='card'>
+                                    <div className='top'>
+                                          <img src={Sneaker2}></img>
+                                    </div>
+                                    <div className='bottom'>
+                                          <div className='text'>
+                                                <h3>Nike Air force</h3>
+                                          </div>
+                                          <div className='price'>
+                                                <span>$99</span>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div className='card'>
+                                    <div className='top'>
+                                          <img src={Sneaker3}></img>
+                                    </div>
+                                    <div className='bottom'>
+                                          <div className='text'>
+                                                <h3>Nike Air force</h3>
+                                          </div>
+                                          <div className='price'>
+                                                <span>$99</span>
                                           </div>
                                     </div>
                               </div>
                         </div>
-                        <div className='col-right'>
-                              <div className='right-card'>
-                                    <div className='right-top'>
-                                          <p>SALE -50%</p>
+                        <div className='right'>
+                              <div className='card'>
+                                    <div className='top'>
+                                          <p>Sale -50%</p>
                                           <span>$99</span>
                                     </div>
-                                    <div className='right-center'>
-                                          <img src={Sneaker3} />
+                                    <div className='center'>
+                                          <img src={Sneaker3}></img>
                                     </div>
-                                    <div className='right-bottom'>
-                                          <p>Nike Air Force 1 Shadow</p>
-                                          <h6>Brand Nike</h6>
+                                    <div className='bottom'>
+                                          <h3>Nike Air force</h3>
+                                          <p>Brand Nike</p>
                                     </div>
                               </div>
                         </div>
