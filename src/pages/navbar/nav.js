@@ -5,6 +5,7 @@ import '../../Styles/res.css';
 import like from '../../images/navIcons/like.png'
 import user from '../../images/navIcons/user.png'
 import shopping from '../../images/navIcons/shopping.png'
+import hamburger from '../../images/navIcons/hamburger-menu-4.svg'
 
 function Nav(){
     return(
@@ -59,6 +60,8 @@ function Nav(){
                         <li className="link_item">
                             <a href="#" className="link">Become A Vender</a>
                         </li>
+
+                        <img src={hamburger} width="24" height="24"></img>
                     </ul>
                 </div>
             </div>    

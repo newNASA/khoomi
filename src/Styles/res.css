@@ -138,6 +138,21 @@
         padding: 10px 20px;
     }
 
+    .menu .container .bottom .links .link-item{
+        text-decoration: none;
+        color: #403f3f;
+    }
+  
+
+    .bn-right .links .link_item{
+        display: none;
+    }
+
+    .bn-right .links img{
+        display: block;
+        cursor: pointer;
+    }
+
     .get{
         height: 272px;
     }
@@ -157,4 +172,20 @@
     .start{
         padding: 50px;
     }
+
+    .collection .col-center{
+        padding: 20px 50px;
+    }
+
+    .collection .col-center .left .card{
+        max-width: 310px;
+    }
+    .collection .col-center .left .card img{
+        width: 290px;
+    }
+
+    .footer{
+        padding: 35px;
+    }
+
 }
