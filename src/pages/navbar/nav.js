@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logo from '../../images/logo.png';
 import '../../Styles/style.css'
 import '../../Styles/res.css';
@@ -8,6 +8,11 @@ import shopping from '../../images/navIcons/shopping.png'
 import hamburger from '../../images/navIcons/hamburger-menu-4.svg'
 
 function Nav(){
+
+    const openMenu = () => {
+        document.querySelector('.menu').style.display = 'block';
+    }
+
     return(
         <div className="navbar">
             <div className="top-navbar">
@@ -61,10 +66,16 @@ function Nav(){
                             <a href="#" className="link">Become A Vender</a>
                         </li>
 
-                        <img src={hamburger} width="24" height="24"></img>
+                        <img
+                            src={hamburger}
+                            width="24"
+                            height="24"
+                            onClick={openMenu}
+                            alt="Hamburger Menu"
+                        />
                     </ul>
                 </div>
-            </div>    
+            </div>
         </div>
     )
 }

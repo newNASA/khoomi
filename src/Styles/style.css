@@ -101,6 +101,7 @@ option{
       background-color: rgba(0, 0, 0, 0.3);
       align-items: start;
       flex-direction: column;
+      display: none;   
 }
 
 .menu .container{
@@ -109,6 +110,18 @@ option{
       background-color: white;
       float: right;
       padding: 35px;
+      
+      animation-name: menu;
+      animation-duration: 1s;
+}
+
+@keyframes menu {
+      from{
+            transform: translateX(100%);
+      }
+      to{
+            transform: translateX(0%);
+      }
 }
 
 .menu .container .top img{
@@ -126,7 +139,6 @@ option{
       text-decoration: none;
       color: #403f3f;
 }
-
 
 /*             get companent style */
 
