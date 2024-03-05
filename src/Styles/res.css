@@ -183,3 +183,90 @@
     }
 
 }
+
+@media screen and (max-width: 426px) {
+
+    .navbar .top-navbar{
+        padding: 0px 20px;
+    }
+    .navbar .top-navbar .center form input{
+        display: none;
+    }
+
+    .get{
+        height: 200px;
+    }
+
+    .get .get-left{
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .get .get-left h1{
+        font-size: 1.5rem;
+    }
+
+    .get .get-left p{
+        font-size: 0.7rem;
+    }
+
+    .buy, .trade{
+        font-size: 0.7rem;
+        padding: 5px 10px ;
+    }
+
+    .start{
+        flex-direction: column;
+    }
+
+    .start .left , .start .right{
+        width: 100%;
+    }
+
+    .start .left h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .col-center .left{
+        justify-content: center !important;
+    }
+
+    .col-center .right .card .center img{
+        width: 214px;
+    }
+
+    .footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer .footer-left, .footer .footer-right{
+        width: 100%;
+    }
+
+    .footer-left p {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-right .card{
+        text-align: left;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .get .get-left h1{
+        font-size: 1.2rem;
+    }
+
+    .get .get-left p{
+        font-size: 0.5rem;
+    }
+
+    .buy, .trade{
+        font-size: 0.5rem;
+    }
+}

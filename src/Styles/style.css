@@ -305,7 +305,6 @@ option{
 } 
 .start .left h1{
       color: #ffffff;
-      width: 600px;
       font-size: 35px;
       font-weight: 700;
       font-family: "Open Sans", sans-serif;
@@ -511,11 +510,11 @@ option{
 .trend-footer{
       display: flex;
       flex-wrap:wrap;
+      gap: 24px;
       justify-content: center;
 }     
 .trend-card{
       width: 275px;
-      margin-left: 50px;
       overflow: hidden;
 }
 .CardHeader{
